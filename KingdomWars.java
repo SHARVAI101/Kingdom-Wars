@@ -154,7 +154,7 @@ public class KingdomWars
         ob1.main();
         for(long i=0;i<999999999;i++){}
         for(long i=0;i<999999999;i++){}
-        System.out.print("\f");
+        
         ob.Welcome();
     }
     
@@ -172,7 +172,7 @@ public class KingdomWars
         System.out.println("                                            ------------- THE PUNIC WARS ---------------                                       ");
         System.out.println("\n");
         System.out.println("                                                                By,");
-        System.out.println("                                        -------------- SHARVAI PATIL --------------\n\n\n");
+        System.out.println("                                            -------------- SHARVAI PATIL --------------\n\n\n");
         for(long i=0;i<999999999;i++){}
         for(long i=0;i<999999999;i++){}
         ob.Mainmenu();
@@ -180,7 +180,7 @@ public class KingdomWars
 
     void Mainmenu()throws IOException
     {
-        // System.out.print("\f");
+        // 
         int choice;
         System.out.println("--------------------------- KINGDOM WARS - The Punic Wars--------------------------------");
         System.out.println();
@@ -256,7 +256,7 @@ public class KingdomWars
 
     void Territories()throws IOException
     { 
-        System.out.print("\f");
+        
         int choice;
         System.out.println("1.Rome"); 
         if(Iberia.equals("allied"))
@@ -312,7 +312,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("ROME");
         System.out.println("\n1.Recruit Villagers");
         System.out.println("2.Construction Management");        
@@ -342,7 +342,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------VILLAGER RECRUITMENT(ROME)------");
         System.out.println();
         System.out.println("\n------------ RESOURCES --------------");
@@ -401,7 +401,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------VILLAGER MANAGEMENT(ROME)------");
         System.out.println();
         System.out.println("Number of idle villagers:"+Rvillagers);
@@ -474,7 +474,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------CONSTRUCTION MANAGEMENT(ROME)------");
         System.out.println();
         System.out.println("\n------------ RESOURCES --------------");
@@ -569,7 +569,7 @@ public class KingdomWars
 
     void Rrecruitment()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;
         System.out.println("------------------ ROME MILITARY RECRUITMENT -------------");
         System.out.println();
@@ -651,7 +651,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("IBERIA");
         System.out.println("\n1.Recruit Villagers");
         System.out.println("2.Construction Management");        
@@ -681,7 +681,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------VILLAGER RECRUITMENT(IBERIA)------");
         System.out.println();
         System.out.println("\n------------ RESOURCES --------------");
@@ -740,7 +740,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------VILLAGER MANAGEMENT(IBERIA)------");
         System.out.println();
         System.out.println("Number of idle villagers:"+Ivillagers);
@@ -813,7 +813,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------CONSTRUCTION MANAGEMENT(IBERIA)------");
         System.out.println();
         System.out.println("\n------------ RESOURCES --------------");
@@ -908,7 +908,7 @@ public class KingdomWars
 
     void Irecruitment()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;
         System.out.println("------------------ IBERIA MILITARY RECRUITMENT -------------");
         System.out.println();
@@ -989,7 +989,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("ZAMA");
         System.out.println("\n1.Recruit Villagers");
         System.out.println("2.Construction Management");        
@@ -1019,7 +1019,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------VILLAGER RECRUITMENT(ZAMA)------");
         System.out.println();
         System.out.println("\n------------ RESOURCES --------------");
@@ -1078,7 +1078,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------VILLAGER MANAGEMENT(ZAMA)------");
         System.out.println();
         System.out.println("Number of idle villagers:"+Zvillagers);
@@ -1151,7 +1151,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------CONSTRUCTION MANAGEMENT(ZAMA)------");
         System.out.println();
         System.out.println("\n------------ RESOURCES --------------");
@@ -1246,7 +1246,7 @@ public class KingdomWars
 
     void Zrecruitment()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;
         System.out.println("------------------ ZAMA MILITARY RECRUITMENT -------------");
         System.out.println();
@@ -1327,7 +1327,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("THAPSUS");
         System.out.println("\n1.Recruit Villagers");
         System.out.println("2.Construction Management");        
@@ -1357,7 +1357,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------VILLAGER RECRUITMENT(THAPSUS)------");
         System.out.println();
         System.out.println("\n------------ RESOURCES --------------");
@@ -1416,7 +1416,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------VILLAGER MANAGEMENT(THAPSUS)------");
         System.out.println();
         System.out.println("Number of idle villagers:"+Ivillagers);
@@ -1489,7 +1489,7 @@ public class KingdomWars
     {
         int choice;
 
-        System.out.print("\f");
+        
         System.out.println("-------CONSTRUCTION MANAGEMENT(THAPSUS)------");
         System.out.println();
         System.out.println("\n------------ RESOURCES --------------");
@@ -1584,7 +1584,7 @@ public class KingdomWars
 
     void Trecruitment()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;
         System.out.println("------------------ THAPSUS MILITARY RECRUITMENT -------------");
         System.out.println();
@@ -1661,7 +1661,7 @@ public class KingdomWars
 
     void MilitarySetup()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;
         System.out.println("------------------ M I L I T A R Y    S E T U P ------------------");
         System.out.println("\n");
@@ -1696,7 +1696,7 @@ public class KingdomWars
 
     void RecruitMenu() throws IOException
     {
-        System.out.print("\f");
+        
         int choice;
         System.out.println("------------------ R E C R U I T   M E N U------------------");
         System.out.println("\n");
@@ -1745,7 +1745,7 @@ public class KingdomWars
 
     void PlayerAttack() throws IOException
     {
-        System.out.print("\f");
+        
         int choice;
         System.out.println("-------------- BATTLE DEPLOYMENT-------------------");
         System.out.println("Select the enemy city that can be attacked:");
@@ -1798,7 +1798,7 @@ public class KingdomWars
 
     void AttackIberia()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;        
         System.out.println("-------------- IBERIAN SIEGE (Year:"+Year+")-------------------");
         System.out.println("Your troops (under General Publius Cornelius Scipio):");
@@ -1960,7 +1960,7 @@ public class KingdomWars
 
     void AttackZama()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;        
         System.out.println("-------------- SIEGE OF ZAMA (Year:"+Year+")-------------------");
         System.out.println("Your troops (under General Publius Cornelius Scipio):");
@@ -2128,7 +2128,7 @@ public class KingdomWars
 
     void AttackThapsus()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;        
         System.out.println("-------------- SIEGE OF THAPSUS (Year:"+Year+")-------------------");
         System.out.println("Your troops (under General Publius Cornelius Scipio):");
@@ -2290,7 +2290,7 @@ public class KingdomWars
 
     void AttackCarthage()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;        
         System.out.println("-------------- SIEGE OF CARTHAGE (Year:"+Year+")-------------------");
         System.out.println("Your troops (under General Publius Cornelius Scipio):");
@@ -2452,7 +2452,7 @@ public class KingdomWars
 
     void IberiaAttacks()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;      
 
         System.out.println("-------------- SIEGE OF ROME (Year:"+Year+")-------------------");
@@ -2603,7 +2603,7 @@ public class KingdomWars
 
     void ZamaAttacks()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;      
 
         System.out.println("-------------- SIEGE OF IBERIA (Year:"+Year+")-------------------");
@@ -2764,7 +2764,7 @@ public class KingdomWars
 
     void ThapsusAttacks()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;      
 
         System.out.println("-------------- SIEGE OF ZAMA (Year:"+Year+")-------------------");
@@ -2926,7 +2926,7 @@ public class KingdomWars
     
     void CarthageAttacks()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;      
 
         System.out.println("-------------- SIEGE OF THAPSUS (Year:"+Year+")-------------------");
@@ -3088,7 +3088,7 @@ public class KingdomWars
 
     void ArmyStatus()throws IOException
     {
-        System.out.print("\f");
+        
         int choice;int inf,cav,arc=0;char c;int choice1,choice3;int choice2=0;
         System.out.println("-------------- ARMY STATUS-------------------");
         System.out.println("Displayes number of troops that have been recruited(in total) in each city.");
@@ -3586,12 +3586,12 @@ public class KingdomWars
 
     void GameOver()throws IOException
     {
-        System.out.println("\f");
+        System.out.println("");
         System.out.println("***************** GAME OVER ***********************");
         System.out.println("You have lost your only city! The great Roman Empire has been defeated!");
         System.out.println("**********CREDITS************");
-        System.out.println("--> SHARVAI OPTIMUS MAXIMUS");
-        System.out.println("email--> sharvai_spqr@yahoo.com");
+        System.out.println("--> SHARVAI PATIL");
+        System.out.println("email--> sharvai101@gmail.com");
         System.out.println("\nPress 1 to exit");
         int choice1=Integer.parseInt(in.readLine());
         System.exit(0);
@@ -3599,14 +3599,14 @@ public class KingdomWars
     
     void Victory()throws IOException
     {
-        System.out.println("\f");
+        System.out.println("");
         System.out.println("***************** VICTORY!!! ***********************");
         System.out.println("You have defeated General Hannibal Barca's troops! Hannibal has committed suicide! The long Punic war has ended! \nThe Roman Empire has proved its greatness! No one challenges our might anymore!");
         System.out.println("\nYear="+Year+" BC");
         System.out.println("Turn Number="+TurnNumber);
         System.out.println("\n**********CREDITS************");
-        System.out.println("--> SHARVAI OPTIMUS MAXIMUS");
-        System.out.println("email--> sharvai_spqr@yahoo.com");
+        System.out.println("--> SHARVAI PATIL");
+        System.out.println("email--> sharvai101@gmail.com");
         System.out.println("\nPress 1 to exit");
         int choice1=Integer.parseInt(in.readLine());
         System.exit(0);
